@@ -60,7 +60,7 @@ app.get('/api/dog', (req, res) => {
 })
 
 app.delete('/api/cat', (req, res) => {
-    res.json(allDogs.pop())
+    res.json(allCats.pop())
 })
 
 app.delete('/api/dog', (req, res) => {
